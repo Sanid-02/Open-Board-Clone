@@ -131,7 +131,7 @@ function fillPath(Obj) {
       tool.stroke();
       setTimeout(function(){
         redo.click();
-      }, 2000)
+      }, 1000)
     }
     else if(Obj.tool == 'line'){
       tool.lineTo(Obj.x, Obj.y);
