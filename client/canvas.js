@@ -129,9 +129,9 @@ function fillPath(Obj) {
       let height = Obj.y - iY;
       tool.rect(iX, iY, width, height);
       tool.stroke();
-      setTimeout(function(){
-        redo.click();
-      }, 1000)
+      // setTimeout(function(){
+      //   redo.click();
+      // }, 1000)
     }
     else if(Obj.tool == 'line'){
       tool.lineTo(Obj.x, Obj.y);
