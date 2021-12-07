@@ -43,6 +43,7 @@ option.addEventListener("click", function (e) {
     toolsCont.style.display = "none";
     pencilToolCont.style.display = "none";
     eraserToolCont.style.display = "none";
+    colourCont.style.display = "none";
   }
 });
 
